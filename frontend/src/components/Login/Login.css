@@ -1,0 +1,120 @@
+.loginForm{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.loginEmail{
+    display: flex;
+    flex-direction: column;
+}
+
+.loginEmail>span{
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+.loginEmail>input[type=email] {
+    background-color: #c7f4ff;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    height: 45px;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.loginPassword{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.loginPassword>span{
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+.loginPassword>input[type=password] {
+    background-color: #c7f4ff;
+    border: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    height: 45px;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.loginPassword>input[type=text] {
+    background-color: #c7f4ff;
+    border: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    height: 45px;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+input[type=email]:focus {
+  border:3px solid rgb(129, 212, 239);
+}
+
+input[type=password]:focus {
+  border:3px solid rgb(129, 212, 239);
+}
+
+.pass-toggle{
+    position: absolute;
+    background: white;
+    color: black;
+    padding: 2px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: 500;
+    width:45px;
+    margin:0 auto;
+    text-align: center;
+    right: 7px;
+    bottom: 9px;
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.loginBtn{
+    background-color: rgb(80, 182, 246);
+    padding: 5px;
+    border-radius:5px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginBtn:hover{
+    background-color: rgb(45, 171, 249);
+}
+
+.guestLoginBtn{
+    background-color: rgb(251, 103, 103);
+    padding: 5px;
+    border-radius:5px;
+    font-size: 16px;
+    height: 48px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.guestLoginBtn:hover{
+    background-color: rgb(249, 82, 82);
+}
